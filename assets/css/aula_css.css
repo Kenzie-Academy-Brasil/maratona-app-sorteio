@@ -1,0 +1,38 @@
+/* Cascading Style Sheets(Folha de Estilos em Cascata, em português) */
+
+/* 
+    TIPOS DE SELETORES 
+    - NOME DA TAG => APLICA O ESTILO EM TODAS AS TAGS QUE TEM O MESMO NOME 
+    - CLASSE => APLICA O ESTILO APENAS EM TAGS QUE TEM ESSA CLASSE
+    - ID  => INDENTIFICADOR UNICO
+
+    SELETORELEMENTO{
+        corFundo: red ;
+        fonte:20px;
+
+    }
+
+    */
+
+/* ELEMENTO/TAG*/
+
+.divPai{
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.divPai div{
+    width: 100px;
+    height: 100px;
+}
+
+.divFilha1{
+    background-color: aqua;
+}
+.divFilha2{
+    background-color:red;
+}
