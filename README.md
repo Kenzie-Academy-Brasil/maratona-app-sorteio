@@ -21,6 +21,12 @@ Header  - #04133d
 Fundo   - #eeeeee
 Botoões - #1480fa
 Textos  - #808080
+
+Sombra - box-shadow: 5px 5px 5px #808080
+Pop up - rgb(4 20 62 / 89%)
+### Fontes
+
+Roboto
 ### Estrutura de arquivos
 
 - README.md
