@@ -1,13 +1,17 @@
-body,header,img,h1,h2,main,section,p,div,input,textarea,button,label,footer,hr{
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
 }
+
 body{
     background-color: #eeeeee;
    
 }
+
 header{
     background-color: #04133d;
     display: flex;
@@ -15,9 +19,11 @@ header{
     align-items: center;
     padding: 30px;
 }
+
 header img{
     width: 150px;
 }
+
 header h1{
     color: #fff;
     margin-left: 5px;
@@ -41,18 +47,38 @@ section{
     overflow: hidden;
     position: relative;
 }
+
+.botaoSortear {
+    border-radius: 10px;
+}
+
+.botaoSortear:hover {
+    background-color: #04133e;
+    transition: all 0.2s;
+}
+
+.entradaNomes {
+    resize: none;
+    border: 1px solid #111;
+    border-radius: 0.5em;
+}
+
 section h2{
     font-weight: 400;
 }
+
 section p{
     margin: 10px 0;
 }
+
 .text-left{
     text-align: left;
 }
+
 section label{
     display: none;
 }
+
 section textarea{
     display: block;
     padding: 10px;
@@ -63,6 +89,7 @@ section textarea{
     max-height: 150px;
     min-height: 150px;
 }
+
 section button{
     background-color: #1480fa;
     color: #fff;
@@ -96,6 +123,7 @@ footer{
     left: 0;
     transition: 0.5s;
 }
+
 .resultado span{
     float: right;
     margin: 20px;
@@ -110,6 +138,7 @@ footer{
     justify-content: center;
     cursor: pointer;
 }
+
 .resultado p{
     text-align: center;
     color: #fff;

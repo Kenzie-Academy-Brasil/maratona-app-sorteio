@@ -19,7 +19,7 @@ Projeto desenvolvido para o evento Maratona Kenzie.
 
 Header  - #04133d
 Fundo   - #eeeeee
-Botoões - #1480fa
+Botões - #1480fa, #04133e
 Textos  - #808080
 
 Sombra - box-shadow: 5px 5px 5px #808080
